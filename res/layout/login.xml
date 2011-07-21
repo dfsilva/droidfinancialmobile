@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/business_bg"
+    >
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    	android:text="Login" android:textSize="17sp"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/txLogin"></EditText>
+   
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:text="@string/tx_senha" 
+    	android:layout_height="wrap_content" android:textSize="17sp"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:password="true" 
+    	android:id="@+id/txSenha"></EditText>
+    
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:orientation="horizontal">
+        <ToggleButton android:layout_width="wrap_content" android:id="@+id/tgSalvarDados" android:layout_height="wrap_content" android:text="ToggleButton"/>
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView2" android:text="@string/tx_salvar_usuario_senha" android:layout_gravity="center_vertical" 
+        	android:layout_height="wrap_content" android:textSize="20sp" android:paddingLeft="10px"/>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="horizontal">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:text="@string/tx_entrar" android:id="@+id/btnEntrar"></Button>
+        <Button android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tx_cancelar" android:id="@+id/btnCancelar"></Button>
+    </LinearLayout> 
+   
+</LinearLayout>

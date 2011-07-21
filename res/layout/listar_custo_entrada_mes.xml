@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/business_bg" android:stretchColumns="1">
+
+	<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@drawable/ret_verde"
+		android:gravity="center_vertical">
+		<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/tx_entradas_mes"
+			android:textSize="20sp" android:textStyle="bold" />
+		<TextView android:id="@+id/tx_entradas_mes"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="right" android:textSize="25sp" />
+	</TableRow>
+	
+	<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@drawable/ret_vermelho"
+		android:gravity="center_vertical">
+		<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+			android:text="@string/tx_custos_mes" android:layout_height="wrap_content"
+			android:textSize="20sp" android:textStyle="bold" />
+		<TextView android:id="@+id/tx_custos_mes"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="right" android:textSize="25sp" />
+	</TableRow>
+
+	<View android:id="@+id/view1" android:layout_height="2dip"
+		android:background="#FF909090" />
+
+	<TableRow android:id="@+id/row_diff" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/txDiferenca" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/tx_diferenca"
+			android:textSize="20sp" android:textStyle="bold" />
+		<TextView android:id="@+id/tx_diff_mes" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="right"
+			android:textSize="20sp" />
+	</TableRow>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" android:paddingTop="10px">
+	    		<Button android:id="@+id/btnSincronize" android:layout_width="wrap_content"
+					android:drawablePadding="10px"
+					android:layout_height="46dip" android:drawableLeft="@drawable/sincronyze" 
+				    android:gravity="center_vertical"/>
+			    
+			    <Button android:id="@+id/btnAddGastos" android:layout_width="wrap_content"
+					android:drawablePadding="10px"
+					android:layout_height="46dip" android:drawableLeft="@drawable/gastos" 
+				    android:gravity="center_vertical"/>
+	</LinearLayout>
+</TableLayout>
+
+

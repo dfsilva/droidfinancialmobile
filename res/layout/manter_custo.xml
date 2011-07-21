@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/business_bg">
+    
+    <ScrollView android:id="@+id/scrollView1" android:layout_height="wrap_content" android:layout_width="match_parent">
+	    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="match_parent"
+	      android:orientation="vertical">
+	        
+	    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:textSize="17sp" android:text="@string/tx_descricao"/>
+	    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tx_descricao_gasto"/>
+	    
+	    <TextView android:layout_height="wrap_content" android:text="@string/tx_categoria" android:id="@+id/textView1" android:layout_width="wrap_content" 
+	    	android:textSize="17sp"/>
+	    <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/spCategoriaGasto"/>
+	    
+	    <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="@string/tx_vencimento"
+	    	android:textSize="17sp"/>
+	    <DatePicker android:id="@+id/dt_gasto" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	    
+	    <TextView android:layout_height="wrap_content" android:text="@string/tx_valor" android:id="@+id/textView3" android:layout_width="wrap_content" 
+	    	android:textSize="17sp"/>
+	    	
+	    <EditText android:layout_height="wrap_content" android:id="@+id/tx_valor_gasto" android:layout_width="match_parent" 
+	    	android:inputType="numberDecimal" android:digits="0123456789,."/>
+	    
+	    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/checkParcelado" android:text="@string/tx_lancamento_parcelado"
+	    	android:textSize="17sp"/>
+	    
+	    <TextView android:layout_height="wrap_content" android:text="@string/tx_qtd_parcelas" android:id="@+id/tx_qtd_parcelas" android:layout_width="wrap_content"
+	    	android:textSize="17sp" android:visibility="invisible"/>
+		<Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/spQtdParcelas" android:visibility="invisible"/>
+		
+		<TextView android:layout_height="wrap_content" android:text="@string/tx_tipo_repeticao" android:id="@+id/tx_tipo_repeticao" android:layout_width="wrap_content"
+	    	android:textSize="17sp" android:visibility="invisible"/>
+		<Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/spTipoRepeticao" android:visibility="invisible"/>
+		
+		</LinearLayout>
+    </ScrollView>
+</LinearLayout>

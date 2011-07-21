@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Financial Mobile</string>
+    <string name="menu_add">Adicionar Custo</string>
+    <string name="created_by">Criado por DiegoSilva</string>
+    <string name="custos_entrada_mes">Custos/Entrada Mês</string>
+    <string name="tx_senha">Senha</string>
+    <string name="tx_cancelar">Cancelar</string>
+    <string name="tx_entrar">Entrar</string>
+    <string name="tx_manter_conectado">Manter Conectado</string>
+    <string name="tx_salvar_usuario_senha">Salvar usuário e senha?</string>
+    <string name="tx_entrar_aplicacao">Entrar na Aplicação</string>
+    <string name="tx_custos_mes">Custos Mês</string>
+    <string name="tx_entradas_mes">Entradas Mês</string>
+    <string name="tx_diferenca">Diferença</string>
+    <string name="tx_descricao">Descrição</string>
+    <string name="tx_categoria">Categoria</string>
+    <string name="tx_data_gasto">Data do Gasto</string>
+    <string name="tx_vencimento">Vencimento</string>
+    <string name="tx_valor">Valor</string>
+    <string name="tx_lancamento_parcelado">Lançamento Parcelado</string>
+    <string name="tx_qtd_parcelas">Quantidade de Parcelas</string>
+    <string name="tx_manter_custo">Manter Custo</string>
+    <string name="tx_tipo_repeticao">Tipo Repetição</string>
+</resources>
